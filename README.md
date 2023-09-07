@@ -1,1 +1,1 @@
-This is a weather app project form the odin project javascript course
+This is a weather app project from the odin project javascript course
