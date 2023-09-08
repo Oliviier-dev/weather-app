@@ -66,7 +66,7 @@ footer{
     background-color: #61c1c1;
 }
 
-.humidity, .wind, .description{
+.humidity, .wind, .description, .city_desc{
     padding: 6px 0;
     font-size: 24px;
 }
@@ -83,4 +83,8 @@ input[type='text']{
 
 input[type='text']:hover{
     border: none;
+}
+
+.city_desc{
+    font-weight: 700;
 }
