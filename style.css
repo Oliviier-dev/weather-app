@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    background-image: url(images/df4cbfc4c27d815c0655.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: #FFF;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 26%;
+    background-color: rgb(36, 35, 34);
+    color: #fff;
+    border-radius: 10px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.desc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper div{
+    padding: 6px;
+}
+
+.btn{
+    padding: 6px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #61c1c1;
+}
+
+.humidity, .wind, .description{
+    padding: 6px 0;
+    font-size: 24px;
+}
+
+.degrees{
+    padding: 12px 0;
+    font-size: 32px;
+}
+
+input[type='text']{
+    padding: 6px 12px;
+    border: none;
+}
+
+input[type='text']:hover{
+    border: none;
+}
