@@ -21,6 +21,7 @@ function getWeatherData(city){
         .then((response) => response.json())
         .then((data) => {
             cityDesc.textContent = `Weather in ${data.location.name}`;
+            cityDesc.style.color = 'white';
             cloudStatus.textContent = data.current.condition.text;
             degrees.textContent = `${data.current.temp_c}°C`;
             wind.textContent = `Windspeed: ${data.current.wind_kph}km/h`;
@@ -29,6 +30,7 @@ function getWeatherData(city){
 
         .catch(() => {
             cityDesc.textContent = "Invalid input. Try again";
+            cityDesc.style.color = 'red';
             cloudStatus.textContent = '--';
             degrees.textContent = `--°C`;
             wind.textContent = `Windspeed: --`;
