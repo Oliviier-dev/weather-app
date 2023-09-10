@@ -27,7 +27,7 @@ function getWeatherData(city){
             humidity.textContent = `Humidity: ${data.current.humidity}%`;
         })
 
-        .catch((error) => {
+        .catch(() => {
             cityDesc.textContent = "Invalid input. Try again";
             cloudStatus.textContent = '--';
             degrees.textContent = `--°C`;
