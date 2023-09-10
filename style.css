@@ -74,6 +74,7 @@ footer{
 .degrees{
     padding: 12px 0;
     font-size: 32px;
+    cursor: pointer;
 }
 
 input[type='text']{
